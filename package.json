@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.17.8"
+  },
+  "name": "babel-plugin-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:joinzhu/babel-plugin-study.git",
+  "author": "join.zhu <joinzhufight@163.com>",
+  "license": "MIT"
+}
