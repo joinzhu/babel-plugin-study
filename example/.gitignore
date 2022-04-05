@@ -1,10 +1,6 @@
 .DS_Store
 node_modules
 /dist
-/example/node_modules
-/example/dist
-/example/yarn.lock
-/example/package.lock.json
 
 
 # local env files

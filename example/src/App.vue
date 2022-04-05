@@ -1,16 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div>
+    <button @click="handleClick">click</button>
+  </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
 export default {
   name: "App",
-  components: {
-    HelloWorld,
-  },
+};
+</script>
+
+<script setup>
+const handleClick = () => {
+  console.warn("handleClick");
+  if (DEBUG) {
+    const a = 1;
+    const b = 2;
+    console.warn(a + b);
+  }
 };
 </script>
 
